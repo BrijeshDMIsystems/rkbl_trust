@@ -14,7 +14,7 @@ const Header = props => (
           RKBL Family Trust established 
           <br />
           in the memory of {' '}
-          Late Ramakrishna Mohapatra.
+          Late Smt Bidulalata & Shri Ramakrishna Mohapatra.
         </p>
       </div>
     </div>
