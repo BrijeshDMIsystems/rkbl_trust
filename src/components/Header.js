@@ -11,10 +11,10 @@ const Header = props => (
         <h1>RKBL FAMILY TRUST</h1>
         <p>
           Nurture and nourish nature & harness it's bounty!{' '}
-          <a href="https://rkbl-family-trust.netlify.app/">RKBL Family Trust</a> and released
+          RKBL Family Trust established 
           <br />
-          for free under the{' '}
-          <a href="https://rkbl-family-trust.netlify.app/">Creative Commons</a> license.
+          in the memory of {' '}
+          Late Ramakrishna Mohapatra.
         </p>
       </div>
     </div>
