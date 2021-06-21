@@ -5,18 +5,18 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
-  render() {
-    let close = (
-      <div
+    render() {
+        let close = (
+            <div
         className="close"
         onClick={() => {
           this.props.onCloseArticle()
         }}
       ></div>
-    )
+        )
 
-    return (
-      <div
+        return (
+            <div
         ref={this.props.setWrapperRef}
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
@@ -30,10 +30,14 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={img2} alt="" />
           </span>
           <p>
-            Nurture and nourish nature & harness it's bounty, blending with our traditional spiritual values, create a healthier and virtuous community to live in harmony with nature.- Late Ramakrishna Mohapatra.
+            In 2009, Late Ramakrishna Mohapatra and  Santosh Nanda started assisting Deenabandhu Trust in Odisha for designing and implementing programs benefiting students, teachers, and schools. 
+          </p>
+          <p>
+          RKBL Family Trust was established in 2019 with the objective to nurture business activities firmly rooted on Sattvik Living.
+
           </p>
           {close}
         </article>
@@ -45,12 +49,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Mission</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={img4} alt="" />
           </span>
           <p>
-            RKBL Family Trust was established by Late Ramakrishna Mohapatra with the objective to nurture business activities firmly rooted on Sattvik Living.
+            Establish a sustainable organic farming community to serve as a model eco-friendly entity to be emulated by other value aligned communities. For this purpose, to carry on the following activities.
           </p>
       
           {close}
@@ -65,13 +69,29 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={img3} alt="" />
           </span>
           <p>
-            Nurture and nourish nature & harness it's bounty, blending with our traditional spiritual values, create a healthier and virtuous community to live in harmony with nature.- Late Ramakrishna Mohapatra.
-          </p>
-          <p>RKBL Family Trust was established by Late Ramakrishna Mohapatra with the objective to nurture business activities firmly rooted on Sattvik Living.
-
+          <ul>
+          <li>Advisory & Consulting Services</li>
+          <li>Organic farming & Horticulture</li>
+          <li>Yoga</li>
+          <li>Nutrition product</li>
+          <li>Dairy Farming & Care</li>
+          <li>Green Products/Buildings</li>
+          <li>CSR</li>
+          <li>Retreat</li>
+          <li>Ecotourism</li>
+          <li>Research & Training</li>
+          <li>Rural Education/Gurukul</li>
+          <li>Herbs & Medicinal Plants</li>
+          <li>Art & Handicrafts</li>
+          <li>Rural Employment</li>
+          <li>Waste Management</li>
+          <li>Water Conservation</li>
+          <li>Green Energy</li>
+          <li>Soil Biotechnology</li>
+          </ul>
           </p>
           {close}
         </article>
@@ -137,17 +157,17 @@ class Main extends React.Component {
           {close}
         </article>
       </div>
-    )
-  }
+        )
+    }
 }
 
 Main.propTypes = {
-  route: PropTypes.object,
-  article: PropTypes.string,
-  articleTimeout: PropTypes.bool,
-  onCloseArticle: PropTypes.func,
-  timeout: PropTypes.bool,
-  setWrapperRef: PropTypes.func.isRequired,
+    route: PropTypes.object,
+    article: PropTypes.string,
+    articleTimeout: PropTypes.bool,
+    onCloseArticle: PropTypes.func,
+    timeout: PropTypes.bool,
+    setWrapperRef: PropTypes.func.isRequired,
 }
 
 export default Main
