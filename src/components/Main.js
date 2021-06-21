@@ -55,9 +55,10 @@ class Main extends React.Component {
           </span>
           <p>
           <blockquote>
-           Nurture and nourish nature & harness it's bounty, blending with our traditional spiritual values, create a healthier and virtuous community to live in harmony with nature.- Late Ramakrishna Mohapatra</blockquote></p>
+           Nurture and nourish nature & harness it's bounty, blending with our traditional spiritual values, create a healthier and virtuous community to live in harmony with nature. <br />&mdash; Late Ramakrishna Mohapatra</blockquote></p>
            <p>RKBL Family Trust was established by Late Ramakrishna Mohapatra with the objective to nurture business activities firmly rooted on Sattvik Living.
           </p>
+          <p>Contact us at: rkblfamilytrust at gmail dot com</p>
       
           {close}
         </article>
