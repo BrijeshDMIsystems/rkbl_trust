@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/img2.jpg'
+import pic02 from '../images/img4.jpg'
+import pic03 from '../images/img3.jpg'
 
 class Main extends React.Component {
     render() {
@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={img2} alt="" />
+            <img src={pic01} alt="" />
           </span>
           <p>
             In 2009, Late Ramakrishna Mohapatra and  Santosh Nanda started assisting Deenabandhu Trust in Odisha for designing and implementing programs benefiting students, teachers, and schools. 
@@ -51,7 +51,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Mission</h2>
           <span className="image main">
-            <img src={img4} alt="" />
+            <img src={pic02} alt="" />
           </span>
           <p>
             Establish a sustainable organic farming community to serve as a model eco-friendly entity to be emulated by other value aligned communities. For this purpose, to carry on the following activities.
@@ -69,7 +69,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={img3} alt="" />
+            <img src={pic03} alt="" />
           </span>
           <p>
           <ul>
