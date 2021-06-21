@@ -39,6 +39,7 @@ class Main extends React.Component {
           RKBL Family Trust was established in 2019 with the objective to nurture business activities firmly rooted on Sattvik Living.
 
           </p>
+          <p>Contact us at: rkblfamilytrust at gmail dot com</p>
           {close}
         </article>
 
@@ -58,7 +59,7 @@ class Main extends React.Component {
            Nurture and nourish nature & harness it's bounty, blending with our traditional spiritual values, create a healthier and virtuous community to live in harmony with nature. <br />&mdash; Late Ramakrishna Mohapatra</blockquote></p>
            <p>RKBL Family Trust was established by Late Ramakrishna Mohapatra with the objective to nurture business activities firmly rooted on Sattvik Living.
           </p>
-          <p>Contact us at: rkblfamilytrust at gmail dot com</p>
+
       
           {close}
         </article>
