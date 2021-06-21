@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/img2.jpeg'
-import pic02 from '../images/img4.jpeg'
+import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/img3.jpeg'
 
 class Main extends React.Component {
@@ -54,7 +54,9 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Establish a sustainable organic farming community to serve as a model eco-friendly entity to be emulated by other value aligned communities. For this purpose, to carry on the following activities.
+          <blockquote>
+           Nurture and nourish nature & harness it's bounty, blending with our traditional spiritual values, create a healthier and virtuous community to live in harmony with nature.- Late Ramakrishna Mohapatra</blockquote></p>
+           <p>RKBL Family Trust was established by Late Ramakrishna Mohapatra with the objective to nurture business activities firmly rooted on Sattvik Living.
           </p>
       
           {close}
@@ -72,6 +74,7 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
+           Establish a sustainable organic farming community to serve as a model eco-friendly entity to be emulated by other value aligned communities. For this purpose, to carry on the following activities:
           <ul>
           <li>Advisory & Consulting Services</li>
           <li>Organic farming & Horticulture</li>
